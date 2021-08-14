@@ -13,7 +13,8 @@ Some branches will have a beginning and an end state. These are marked with the 
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
+	- A Google Cloud Platform account. Some costs may apply if you do this. Otherwise, download mySQL on your local machine and create your own tables.
+	- Python 3.8 on your local machine
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 3. [Course-specific instructions]
 
