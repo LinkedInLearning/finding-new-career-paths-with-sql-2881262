@@ -1,0 +1,27 @@
+
+SELECT 
+SUMMARY_1.MEASURE as MEASURE,
+ST_DEV,
+AVERAGE_TOTAL_ORDER,
+MIN_TOTAL_DUE,
+PERCENTILE_25,
+MEDIAN,
+PERCENTILE_75,
+MAX_TOTAL_DUE 
+
+FROM
+(SELECT 'TotalDue' as MEASURE, stddev(TotalDue) as ST_DEV,
+       avg(TotalDue) as AVERAGE_TOTAL_ORDER,
+       max(TotalDue) as MAX_TOTAL_DUE,
+       min(TotalDue) as MIN_TOTAL_DUE
+ from `sql-careers.HPlusSports.orders`) as SUMMARY_1,
+
+(SELECT 'TotalDue' as MEASURE, 
+PERCENTILE_CONT(TotalDue, 0.25) OVER () AS PERCENTILE_25, 
+PERCENTILE_CONT(TotalDue, 0.5) OVER () AS MEDIAN, 
+PERCENTILE_CONT(TotalDue, 0.75) OVER () AS PERCENTILE_75
+FROM
+  (SELECT TotalDue FROM `sql-careers.HPlusSports.orders`) as Total
+LIMIT
+  1) AS SUMMARY_2
+  WHERE SUMMARY_1.MEASURE = SUMMARY_2.MEASURE
