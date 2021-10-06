@@ -5,11 +5,11 @@ This is the repository for the LinkedIn Learning course `course-name`. The full 
 
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+This repository has folders with code for each of the videos in the course. You can see the examples for each video in the corresponding folder.
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+The SQL Careers Assessment.pdf document is a copy of the Assessment you will take inside of the LinkedIn Learning video platform after the first chapter. The Skills Inventory Worksheet.pdf is for you to fill out when working through the course.
+
+The folders are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the folder named `02_03` corresponds to the second chapter and the third video in that chapter.
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
