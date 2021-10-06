@@ -7,7 +7,7 @@ _See the readme file in the main branch for updated instructions and information
 ## Instructions
 This repository has folders with code for each of the videos in the course. You can see the examples for each video in the corresponding folder.
 
-The [SQL Careers Assessment.pdf](https://github.com/LinkedInLearning/finding-new-career-paths-with-sql-2881262/blob/main/SQL%20Careers%20Assessment.pdf) document is a copy of the Assessment you will take inside of the LinkedIn Learning video platform after the first chapter. The [Skills Inventory Worksheet.pdf](https://github.com/LinkedInLearning/finding-new-career-paths-with-sql-2881262/blob/main/Skills%20Inventory%20Worksheet.pdf) is for you to fill out when working through the course.
+The [SQL Careers Assessment.pdf](https://github.com/LinkedInLearning/finding-new-career-paths-with-sql-2881262/blob/main/SQL%20Careers%20Assessment.pdf) document is a copy of the Assessment you will take inside of the LinkedIn Learning video platform after the first chapter. The [Skills Inventory Worksheet.pdf](https://github.com/LinkedInLearning/finding-new-career-paths-with-sql-2881262/blob/main/Skills%20Inventory%20Worksheet.pdf) is for you to fill out while working through the course.
 
 The folders are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the folder named `02_03` corresponds to the second chapter and the third video in that chapter.
 
