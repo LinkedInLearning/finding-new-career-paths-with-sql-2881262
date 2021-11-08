@@ -6,7 +6,7 @@ This is the repository for the LinkedIn Learning course Finding New Career Paths
 The SQL language is widely used and can be applied to a variety of technical fields such as data warehousing, application development, data science, and more. If you are familiar with SQL language or interested in learning more about it, join Nikiya Simpson in this course as she helps you design a career around this skillset, whether you are early in your career or if you are looking for a change. Nikiya explores different career areas and looks at specific examples of each so you know a little about what each entails before deciding to go down a particular path. If you’re wondering how to market your skills and discover where you can take your career using SQL knowledge you already have, join Nikiya in this course.
 
 ## Instructions
-This repository has folders for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+This repository has folders for each of the videos in the course.
 
 ## Folders
 The folders are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the folder named `02_03` corresponds to the second chapter and the third video in that chapter. 
